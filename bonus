@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dessert Cards</title>
+    <style>
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .card-body h3 {
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+        .card-text {
+            margin-bottom: 20px;
+        }
+        .card-body a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .card-body a:hover {
+            background-color: #0056b3;
+        }
+        .cards-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cards-container">
+        <div class="card">
+            <img src="mousee.jpg" alt="Dessert 1">
+            <div class="card-body">
+                <h3>mousee</h3>
+                <p class="card-text">A rich and moist chocolate cake topped with creamy chocolate ganache.</p>
+                <a href="https://en.wikipedia.org/wiki/Mousse" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Yogurt Parfait.jpg" alt="Dessert 2">
+            <div class="card-body">
+                <h3>Yogurt Parfait</h3>
+                <p class="card-text">Creamy cheesecake with a buttery crust and a strawberry topping.</p>
+                <a href="https://en.wikipedia.org/wiki/Parfait" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Nutella Crepes1.jpg" alt="Dessert 3">
+            <div class="card-body">
+                <h3>Nutella Crepes</h3>
+                <p class="card-text">A tangy lemon curd tart with a crisp, buttery crust.</p>
+                <a href="https://en.wikipedia.org/wiki/Cr%C3%AApe#:~:text=Sweet%20cr%C3%AApes%20are%20generally%20made,breakfast%20or%20as%20a%20dessert." target="_blank">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
