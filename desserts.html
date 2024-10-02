@@ -129,24 +129,38 @@
 </div>
 <div class="container mt-5">
   <h2> Types of Buttons</h2>
-  <div class="btn-toolbar" role="toolbar">
+  <div class="btn-toolbar" role="toolbar"aria-label="Basic styles">
       <!-- Group 1: Success Buttons -->
-      <div class="btn-group mr-2" role="group">
+      <div class="btn-group mr-2" role="group"aria-label="Success">
           <button type="button" class="btn btn-success">M</button>
           <button type="button" class="btn btn-success">Y</button>
           <button type="button" class="btn btn-success">N</button>
       </div>
       <!-- Group 2: Alert Buttons -->
-      <div class="btn-group mr-2" role="group">
+      <div class="btn-group mr-2" role="group"aria-label="warning">
           <button type="button" class="btn btn-warning">E</button>
           <button type="button" class="btn btn-warning">N</button>
       </div>
       <!-- Group 3: Danger Button -->
-      <div class="btn-group" role="group">
+      <div class="btn-group" role="group"aria-label="Danger">
           <button type="button" class="btn btn-danger">I</button>
       </div>
   </div>
 </div>
+<div class="container mt-5">
+  <h2>Dropdown Menu</h2>
+  <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Navigate Pages
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="basic.html">Basic</a></li>
+          <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
+      </ul>
+  </div>
+</div>
+
 
 
 
